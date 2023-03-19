@@ -1,0 +1,68 @@
+body{
+    padding: 10px;
+    margin: 0px;
+    min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 3px solid;
+    border-color: green;
+}
+
+button {
+    text-shadow: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    /* border: none; */
+    border-width: 2px;
+    font-weight: bold;
+}
+
+#input-btn {
+    border-color: rgb(0, 0, 0);
+}
+#delete-btn {
+    color: green;
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+}
+
+#ul_el {
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+
+li a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+li a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
